@@ -6,28 +6,50 @@ html, body{
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
     1. لون الخلفيه
     2. الطول والعرض
-    3. الهوامش
+    3. الهوامشئ
     4. الحواشي
     5. نوع العرض
     6. border radius */
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
+.flexer{
+    display: flex;
+height: 100%;
+}
+
 .sidebar{
+
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 120px;
+    background-color: gray;
+    color: white;
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    height: 20%;
+    background-color: teal;
 }
 
-.main{
+.main{height: 80%;
+    background-color: #457b9d;
 
 }
 
 a{
     color: darkgray;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
+}
+a:hover{
+    color: yellow;
+box-shadow: 2px 2px 2px;
+}
+
+
+.ala{height: 100%;
+    
+
 }
 
 /* !بــونص */
